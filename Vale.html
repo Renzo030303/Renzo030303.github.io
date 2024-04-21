@@ -1,0 +1,137 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vale Hermosa</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f7f7f7;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+    }
+    .container {
+        max-width: 800px;
+        width: 100%;
+        padding: 20px;
+        background-color: #fff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+    }
+    h1 {
+        text-align: center;
+        color: #333;
+    }
+    .gallery {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        grid-gap: 20px;
+        margin-top: 20px;
+    }
+    .image {
+        position: relative;
+        overflow: hidden;
+        border-radius: 10px;
+    }
+    .image img {
+        width: 100%;
+        height: auto;
+        transition: transform 0.3s ease;
+    }
+    .image:hover img {
+        transform: scale(1.1);
+    }
+    .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+    }
+    .image:hover .overlay {
+        opacity: 1;
+    }
+    .overlay-content {
+        text-align: center;
+    }
+</style>
+</head>
+<body>
+<div class="container">
+    <h1>Album al amor de mi vida</h1>
+    <div class="gallery">
+        <div class="image">
+            <img src="img/vale1.jpeg" alt="Imagen 1">
+            <div class="overlay">
+                <div class="overlay-content">
+                    <h3>¡Te amor porque!</h3>
+                    <p> Porque me llenas de mucha alegria y porque eres una mujer maravillosa.</p>
+                </div>
+            </div>
+        </div>
+        <div class="image">
+            <img src="img/vale2.jpeg" alt="Imagen 2">
+            <div class="overlay">
+                <div class="overlay-content">
+                    <h3>¡Te amor porque! </h3>
+                    <p>A pesar de las dificultades siempre estamos juntos superando cada obstaculo.</p>
+                </div>
+            </div>
+        </div>
+        <div class="image">
+            <img src="img/vale3.jpeg" alt="Imagen 2">
+            <div class="overlay">
+                <div class="overlay-content">
+                    <h3>¡Te amor porque!</h3>
+                    <p>Eres la princesa que cualquiera soñaria pero yo tengo la dicha de tenerte.</p>
+                </div>
+            </div>
+        </div>
+        <div class="image">
+            <img src="img/vale4.jpeg" alt="Imagen 2">
+            <div class="overlay">
+                <div class="overlay-content">
+                    <h3>¡Te amor porque!</h3>
+                    <p>Siempre estas dandome apoyo y siempre preocupandote por mi a pesar de nuestras pequeñas peleas jiji.</p>
+                </div>
+            </div>
+        </div>
+        <div class="image">
+            <img src="img/vale5.jpeg" alt="Imagen 2">
+            <div class="overlay">
+                <div class="overlay-content">
+                    <h3>¡Te amor porque!</h3>
+                    <p> Siempre luchas por lo que quieres
+                        Y entre tus ideales se refleja tu personalidad y manera de ser.</p>
+                </div>
+            </div>
+        </div><div class="image">
+            <img src="img/vale6.jpeg" alt="Imagen 2">
+            <div class="overlay">
+                <div class="overlay-content">
+                    <h3>¡Te amor porque!</h3>
+                    <p>Simplemente eres tu y tienes tu magia de siempre hacerme sonreir porque una persona como tu no se encuentra dos veces , nunca te apagues eres una persona maravillosa la cual yo siempre voy a estar ahi para poder apoyarte y llegar muy muy lejos , vales mucho mi reina por una relacion que nunca se acabe contigo</p>
+                </div>
+            </div>
+        </div>
+        <!-- Añade más imágenes aquí -->
+    </div>
+</div>
+</body>
+</html>
+```
+
